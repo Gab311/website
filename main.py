@@ -1,6 +1,9 @@
-import random 
+import streamlit as st
 
-b = random.randint(1, 10)
-print(b)
-
-print("gabpoge11111")
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
