@@ -3,13 +3,10 @@ import requests
 from bs4 import BeautifulSoup
 
 
-<<<<<<< HEAD
-=======
-
 st.title("Meeting Links")
 st.button("Join Meeting")
 
->>>>>>> test
+
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
